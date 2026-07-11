@@ -8,14 +8,6 @@ import {
     signOut
 } from "https://www.gstatic.com/firebasejs/12.0.0/firebase-auth.js";
 
-if (typeof AOS !== "undefined") {
-    AOS.init({
-        once: true,
-        offset: 100,
-        duration: 800
-    });
-}
-
 // Ocean Map
 const modal = document.getElementById("oceanModal");
 const modalContent = document.getElementById("modalContent");
